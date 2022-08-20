@@ -1,0 +1,91 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="value" />
+            <item index="1" class="java.lang.String" itemvalue="alert-" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="div" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="1" class="java.lang.String" itemvalue="Django" />
+            <item index="2" class="java.lang.String" itemvalue="asgiref" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="apps.orders.models.Order.objects" />
+          <option value="apps.orders.models.Order.DoesNotExist" />
+          <option value="apps.account.models.Farmer.objects" />
+          <option value="apps.orders.models.OrderAllocation.objects" />
+          <option value="apps.orders.models.OrderAllocation.DoesNotExist" />
+          <option value="apps.orders.models.OrderAllocationImage.objects" />
+          <option value="apps.orders.models.OrderAllocationImage.DoesNotExist" />
+          <option value="apps.account.models.OtpCode.objects" />
+          <option value="apps.account.models.DriverOnTruck.objects" />
+          <option value="apps.account.models.MemberShip.objects" />
+          <option value="apps.account.models.MemberShip.DoesNotExist" />
+          <option value="apps.account.models.Farm.objects" />
+          <option value="apps.account.models.Driver.objects" />
+          <option value="apps.account.models.Truck.objects" />
+          <option value="apps.account.models.SpecificTruck.objects" />
+          <option value="apps.account.models.FactoryModel.objects" />
+          <option value="apps.orders.models.Product.objects" />
+          <option value="apps.account.models.FarmerMembership.objects" />
+          <option value="apps.account.models.FactoryMembership.objects" />
+          <option value="apps.account.models.OtpCode.MultipleObjectsReturned" />
+          <option value="apps.account.models.OtpCode.DoesNotExist" />
+          <option value="apps.account.models.Factory.objects" />
+          <option value="apps.orders.models.RejectionReason.objects" />
+          <option value="apps.orders.views.get_queryset.get" />
+          <option value="apps.orders.models.SchedulesEvacuation.objects" />
+          <option value="apps.orders.models.UnloadTurn.objects" />
+          <option value="apps.orders.models.OrderAllocationCoordinate.objects" />
+          <option value="apps.orders.models.Order.order_allocations" />
+          <option value="jdatetime.strftime" />
+          <option value="apps.account.models.CustomUser.farmer" />
+          <option value="apps.account.models.CustomUser.factory" />
+          <option value="apps.account.models.Contractor.objects" />
+          <option value="apps.account.models.CustomUser.contractor" />
+          <option value="apps.orders.models.ImageCategory.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
